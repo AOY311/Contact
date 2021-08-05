@@ -1,0 +1,54 @@
+body {
+    display: block;
+}
+
+.avt>img {
+    position: relative;
+    top: 90px;
+    max-width: 180px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.header {
+    background-color: #0f0b0b;
+    border-radius: .5%;
+    text-align: center;
+    margin-bottom: 5px;
+    min-width: 200px;
+}
+
+.content {
+    display: block;
+    background-color: white;
+}
+
+#name h2 {
+    margin-bottom: 11px;
+}
+
+#name {
+    position: relative;
+    text-align: center;
+    min-width: 500px;
+    border-bottom: 1px solid rgb(122, 122, 122, 0.5);
+}
+
+.line {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.menu {
+    display: inline-block;
+    font-size: 40px;
+    border: 1px solid rgb(233, 233, 233);
+    border-radius: 5px;
+    padding: 11px;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}

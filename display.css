@@ -1,17 +1,20 @@
 body {
-    display: block;
+    text-align: center;
+    justify-content: center;
 }
 
 .avt>img {
     position: relative;
-    top: 90px;
+    color: white;
     max-width: 180px;
     border-radius: 50%;
-    border: 5px solid white;
+    box-shadow: 0 0 0 5px;
+    object-fit: cover;
+    margin: 15px;
 }
 
 .header {
-    background-color: #0f0b0b;
+    background: linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 50%, rgb(255, 255, 255) 50%, rgb(255, 255, 255) 100%);
     border-radius: .5%;
     text-align: center;
     margin-bottom: 5px;
@@ -19,36 +22,18 @@ body {
 }
 
 .content {
-    display: block;
-    background-color: white;
-}
-
-#name h2 {
-    margin-bottom: 11px;
-}
-
-#name {
-    position: relative;
-    text-align: center;
-    min-width: 500px;
-    border-bottom: 1px solid rgb(122, 122, 122, 0.5);
-}
-
-.line {
+    font-size: 50px;
     display: flex;
+    text-align: center;
     justify-content: center;
-    margin-bottom: 20px;
+    color: black;
 }
 
-.menu {
-    display: inline-block;
-    font-size: 40px;
-    border: 1px solid rgb(233, 233, 233);
-    border-radius: 5px;
-    padding: 11px;
+.icon:hover {
+    color: teal;
+    transform: scale(120%);
 }
 
-.link {
-    text-decoration: none;
-    color: inherit;
+a {
+    color: black;
 }
